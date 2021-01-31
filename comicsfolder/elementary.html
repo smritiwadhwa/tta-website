@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Comics For Kids </title>
+  <link rel = "stylesheet" href = "./comic.css">
+</head>
+
+<body>
+  <div class= "navbar">
+    <ul>
+      <li> <a href= "comicsnav.html"> Home </a> </li>
+      <li> <a href= "elementary.html"> Elementary School Books </a> </li>
+      <li> <a href= "middleschool.html"> Middle School Books </a> </li>
+      <li> <a href= "suggestions.html"> Suggestions </a> </li>
+    </ul>
+  </div>
+
+
+  <img src="elementaryheader.png" width="100%"></img>
+
+  <div class="homebody">
+<h3> Click on a book title to see more! </h3>
+  <br>
+  <br>
+
+  <div class= "percy">
+    <div> <img src= "https://www.jcpl.org/wp-content/uploads/2019/10/I-Survived-Book-Scouts-blog-1024x511.png" width= "100%" > </img> </div>
+    <div>
+    <button type="button" class="collapsible"><h3> I Survived +</h3></button>
+    <div class="content">
+      <h4>The I Survived stories are based on true events such as natural disasters and attacks. The author incorparates fake characters, but tells the story. - Google </h4>
+    </div>
+  </div>
+  </div>
+  <br> <br> <br> <br> <br>
+
+
+
+  <div class= "percy">
+    <div> <img src= "https://readingeverynight.files.wordpress.com/2018/08/the-kane-chronicles.png?w=640" width= "100%" > </img> </div>
+    <div>
+        <div>
+        <button type="button" class="collapsible"><h3> Kane Chronicles +</h3></button>
+        <div class="content">
+        <h4> Click here to see more: </h4> <a href ="https://rickriordan.com/series/kane-chronicles/"><h4><u>Kane Chronicles</u></h4></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <br> <br> <br> <br> <br>
+
+  <div class= "percy">
+    <div> <img src= "https://i.pinimg.com/originals/b4/a4/24/b4a424b29411b5517e2932bb2f637a23.jpg" width= "100%" > </img> </div>
+    <div>
+        <div>
+        <button type="button" class="collapsible"><h3> Diary of a Wimpy Kid +</h3></button>
+        <div class="content">
+          <h4> Diary of a Wimpy Kid: The Diary of a Wimpy Kid series is about a kid named Greg Heffley. He tells about what happens about his life. This book series is full of comedy and action about this middle schooler. - Google </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <br> <br> <br> <br> <br>
+
+  <div class= "percy">
+    <div> <img src= "https://s01.sgp1.digitaloceanspaces.com/inline/837301-ngsigkjrll-1497066852.jpeg" width= "100%"> </img> </div>
+    <div>
+        <div>
+        <button type="button" class="collapsible"><h3> Geronimo Stilton +</h3></button>
+        <div class="content">
+          <h4> Geronimo Stilton: This book series is about Geronimo Stilton - The publisher of The Rodent's Gazette. He is portrayed as brave in the television series, but even though in the books he was never depicted himself as valiant. Geronimo has a love of knowledge and has a sense of ethics and morals, but despite this he is still a bit of a klutz. He leads one of the most successful publication groups in the world. Geronimo is the protagonist in the book and television series alongside his younger sister Thea Stilton, his prankster cousin Trap Stilton, and his nephew Benjamin. - Google  </h4>
+        </div>
+        </div>
+    </div>
+  </div>
+
+        <br> <br> <br> <br> <br>
+
+  <div class= "percy">
+    <div> <img src="https://bookriot.com/wp-content/uploads/2020/04/magic-tree-house-1280x720.jpg" width="100%"> </div>
+    <div>
+        <div>
+        <button type="button" class="collapsible"><h3> Magic Tree House +</h3></button>
+        <div class="content">
+          <h4> Magic Tree House: This book series is about Jack and his younger sister, Annie, are just regular kids. But when they discover a tree house in the woods, something magical happens. - Google   </h4>
+        </div>
+        </div>
+    </div>
+  </div>
+
+          <br> <br> <br> <br> <br>
+
+
+  <div class= "percy">
+    <div> <img src="https://pleasantstreetprimary.co.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-11-at-21.21.58.png" width="100%"> </div>
+    <div>
+        <div>
+        <button type="button" class="collapsible"><h3> Dog Man +</h3></button>
+        <div class="content">
+          <h4> This book series is about Dog Man and the other cops are symbolic of the good guys, while Petey is one of several bad guys. While Petey and the other villains set out to do evil deeds, the reader is always certain that Dog Man will win.   </h4>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class= "footerflex">
+      <div>
+        <h6> Contact Us! </h6>
+        <img src= "https://assets.mspimages.in/wp-content/uploads/2016/04/Gmail_logo-1.png" width="25%"> </img>
+        <p> c4kbooks@gmail.com </p>
+      </div>
+      <div class= "link">
+        <a href= "#top"> back to top </a>
+      </div>
+    </div>
+  </footer>
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+  </body>
+  </html>

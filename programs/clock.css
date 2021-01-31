@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("./pattern.png");
+}
+.main {
+  background: #d1e4e4;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+  border-radius: 5px;
+  #d1e4e4
+}
+
+.badge {
+  width: 96px;
+  background: #7abcb9;
+  color: white;
+  padding: 5px 10px;
+  font-family: Amatic SC, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 37%;
+  text-align: center;
+}
+
+
+
+.clock {
+  background: #f5cecd;
+  text-align: center;
+  font-size: 60px;
+  height: 100%;
+  padding-top: 20px;
+  font-family: Amatic SC, sans-serif;
+  border-radius: 4px;
+}

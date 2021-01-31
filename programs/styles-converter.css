@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+}
+
+
+div {
+  height: 33.33vh;
+}
+#farenheight{
+  border-top: 4px solid #cce5e4;
+  border-bottom: 4px solid #cce5e4;
+}
+
+input[type=number] {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background: #f5cecd;
+  font-size: 10em;
+  text-align: center;
+  border: 0;
+  font-family: Amatic SC, sans-serif;
+  color: white;
+}
+
+
+
+
+::placeholder {
+  color: white;
+}

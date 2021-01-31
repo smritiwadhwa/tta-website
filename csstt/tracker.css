@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.heading {
+
+    background-color: #d7d8dd;
+    margin-top: 0px;
+    margin-bottom: 0.1%;
+    
+
+
+}
+
+
+
+
+.info{
+  padding-top: 2%;
+}
+/* zebra stripes below */
+tr:nth-of-type(odd) {
+  background: #d7d8dd;
+}  /* zebra stripes above */
+
+
+.homepage1 {
+
+      line-height: 30px;
+      padding: 5%;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      margin-left: 2%;
+      margin-right: 2%;
+      border-radius: 25px;
+      font-size: .75vw;
+    }
+
+.homepage2 {
+  line-height: 30px;
+  padding: 5%;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: .75vw;
+  box-sizing: border-box;
+  border: collapse;
+  display: block;
+
+}
+
+.homepage3 {
+  line-height: 30px;
+  padding: 5%;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: .75vw;
+  box-sizing: border-box;
+  font-style: bold;
+  border: collapse;
+  display: block;
+
+
+
+}
+
+.smriti{
+  line-height: 30px;
+  width: 100%;
+  padding: 5%;
+  margin-top: 4%;
+  margin-bottom: 10%;
+  font-family: 'Raleway', sans-serif;
+  color: #5396ae;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 25px;
+  font-size: .80vw;
+  padding-left: 9%;
+}
+
+
+.schedule {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+.shiv{
+  line-height: 30px;
+  width: 100%;
+  padding: 5%;
+  padding-right: 12%;
+  margin-top: 2%;
+  margin-bottom: 7%;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 25px;
+  font-size: .80vw;
+  align-items: center;
+}
+
+.csfirst{
+  line-height: 30px;
+  width: 100%;
+  padding: 3%;
+  padding-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 0%;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 25px;
+  font-size: .80vw;
+}
+.teach{
+  line-height: 30px;
+  width: 96%;
+  padding: 5%;
+  margin-top: 4%;
+  margin-bottom: 0%;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 25px;
+  font-size: .80vw;
+}
+.class{
+  line-height: 30px;
+  width: 96%;
+  padding: 5%;
+  margin-top: 4%;
+  margin-bottom: 0%;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 25px;
+  font-size: .80vw;
+  padding-left: 20%;
+}
+
+
+
+
+h2{
+text-align: center;
+font-size: 110%;
+font-family: Raleway, verdana;
+color: white;
+}
+
+
+
+
+h3 {
+
+text-align: center;
+font-size: 200%;
+font-family: Raleway, verdana;
+font-style: bold;
+color: white;
+
+}
+
+
+
+h4 {
+
+text-align: center;
+font-size: 130%;
+color: #20283e;
+font-family: Raleway, verdana;
+
+}
+
+
+h5{
+  color: white;
+  font-family: Raleway, verdana;
+  font-size: 100%;
+  text-align: center;
+  font-style: none;
+}
+
+h6 {
+  color: #86c288;
+  font-family: Raleway, verdana;
+  font-size: 90%;
+  font-style: bold;
+}
+
+
+
+
+        h1{
+
+          color: white;
+          text-align: center;
+          font-size: 320%;
+          width: 100%;
+        }
+
+
+
+        body{
+
+          background-color: #d7d8dd;
+          margin: 0;
+          padding-left: 0px;
+          padding-right: 0px;
+          text-align: center;
+
+
+        }
+
+
+        p{
+          padding-left: 2%;
+        }
+
+        .first {
+          font-size: 200%;
+        }
+
+
+
+        }
+
+        .store {
+          width: 35%;
+
+        }
+
+
+        .tracking {
+          width: 10%;
+          padding-top: 2%;
+          border: 2px solid #20283e;
+        }
+
+
+        * {
+          box-sizing:border-box
+        }
+
+        /* Slideshow container */
+
+        .slidesText{
+          font-family: 'Raleway', sans-serif;
+          font-size: 115%;
+          color: white;
+          border-radius: 7px;
+          margin-top: 1%;
+          }
+
+        .slideshow {
+          margin-left: 25%
+        }
+
+        .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        margin-left: auto;
+        padding-left: 2%;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+        display: none;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 0;
+        font-family: 'Raleway', sans-serif;
+        }
+
+        /* Fading animation */
+        .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+
+
+        /* Slideshow container */
+        .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        margin-bottom: 50px;
+        position: relative;
+        float: left;
+        width: 50%;
+        min-height: 400px;
+        padding-top: 2%;
+
+        }
+
+
+
+        .slideshow{
+
+        padding-left: 2%;
+        padding-top: 2%;
+
+        }
+        /* Hide the images by default */
+        .mySlides {
+        display: none;
+        }
+
+        /* Number text (1/3 etc) */
+
+
+
+        /* Fading animation */
+        .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+
+        .table{
+        padding-top: 2%;
+        }
+
+        .stuff {
+          font-size: 500%;
+        }
+        .head1 {
+          border: none;
+          flex-basis: 33%;
+          align-content: flex-start;
+          margin-top: 3%;
+        }
+        .head2 {
+          border: none;
+          flex-basis: 33%;
+
+        }
+
+
+.tableimage {
+  margin-left: -11px;
+
+}
+td {
+  color: #20283e;
+  font-family: Raleway, verdana;
+  font-style: bold;
+  border: 2px solid #20283e;
+}
+ /* NAVBAR for all pages */
+
+.navbar {
+font-size: 15px;
+color: black;
+background-color: #20283e;
+border: 5px;
+text-align: center;
+text-decoration: none;
+font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+float: center;
+overflow: hidden;
+z-index: 10000;
+position: fixed;
+width: 100%;
+
+}
+.navbar .icon {
+  display: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 750px) {
+  .navbar a:not(:last-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 750px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  @media screen and (max-width: 750px) {
+
+      .flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head2 {
+  border: none;
+  flex-basis: 33%;
+
+}
+
+.head3 {
+  border: none;
+  flex-basis: 33%;
+  background-color: #d7d8dd;
+}
+
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+a:hover {
+  background-color: #7b8396;
+   transition: 0.4s;
+}
+
+
+
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-decoration: none;
+
+
+}
+
+
+.active {
+    background-color: #587689;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+.big {
+  transition: .5s;
+}
+
+
+
+
+
+
+
+.enroll{
+  padding-bottom: 4%;
+}
+
+
+.big:hover {
+  width: 75%;
+
+}
+
+
+/* glow */
+.glow {
+  transition: .5s;
+}
+
+.glow:hover {
+
+  width: 35%;
+}
+
+
+
+.hover:hover{
+  color:#9e2626;
+}
+
+.hover {
+  color: #86c288;
+  transition: 0.3s;
+}
+
+
+.face {
+  transition: .5s;
+}
+
+.face:hover{
+  width: 60%;
+}
+
+
+
+.trackingtable {
+  padding-bottom: 2%;
+}
+
+
+.trackertr {
+  border : 2px solid #20283e
+}
+
+.availability {
+  color: #20283e;
+  font-size: 18px;
+  font-family: Raleway, verdana;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 38%;
+}
+
+.trackerflex {
+  flex-basis: 33%;
+}

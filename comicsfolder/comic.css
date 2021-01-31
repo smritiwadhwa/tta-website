@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body{
+background-color: #fff7c9;
+overflow-x: hidden;
+}
+.homebody{
+  width: 80%;
+  background-color: #fff5f7;
+margin: auto;
+padding-top: 5%;
+}
+.navbar{
+  margin-top: -1.6%;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 150%;
+  background-color: #F37D99;
+  padding-left: 15%;
+  padding-top: 1%;
+  padding-bottom: 0.5px;
+  margin-left: -5%;
+  width: 100%;
+}
+.heading {
+
+    background-color: #d7d8dd;
+    margin-top: 0px;
+    margin-bottom: 0.1%;
+    padding-top: 5%;
+    width:100%;
+
+}
+.pics
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+			height: 25em ;
+    }
+    .words
+    {
+      position: absolute;
+      top: 25%;
+      left: 0%;
+      background-color: rgba(255,255,255,0.90);
+			height: 17em;
+      width: 100%;
+
+    }
+
+.comiclogo{
+  text-align: center;
+}
+
+.form{
+  text-align: center;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+li{
+  display: inline;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+a:hover {
+  color: #d8e6eb;
+
+}
+
+h1{
+  font-family: 'Balsamiq Sans', cursive;
+  text-align: center;
+  font-size: 250%;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+h2{
+  font-family: 'Balsamiq Sans', cursive;
+  text-align: center;
+  font-size: 150%;
+  transition: 0.5s;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+h1:hover{
+  box-shadow: 0px 0px 50px 10px #d8e6eb;
+  background-color: #d8e6eb;
+  color: black;
+}
+
+ h2:hover{
+   box-shadow: 0px 0px 50px 10px #d8e6eb;
+   background-color: #d8e6eb;
+   color: black;
+}
+
+.flexcontainer{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.footerflex{
+  display: flex;
+  justify-content: center;
+  font-family: 'Balsamiq Sans', cursive;
+  width: 100%;
+
+}
+footer{
+  background-color: #F37D99;
+  position: absolute;
+  width: 100%;
+  font-family: 'Balsamiq Sans', cursive;
+  padding-bottom: 3%;
+  height: 17em;
+  margin-right: -10%;
+}
+
+.footerflex {
+  display: flex;
+  justify-content: center;
+
+}
+.gallery{
+  width: 100%;
+  margin: auto;
+  padding-left: 8%;
+}
+
+.footerflex > div {
+  width: 50%;
+  text-align: center;
+}
+
+.footerflex > div > p {
+  margin-left: 5%;
+  font-size: 130%;
+  letter-spacing: 1px;
+}
+
+.footerflex > div > img {
+  margin-top: -3%;
+
+}
+
+.link {
+  margin-top: 5%;
+  font-size: 150%;
+}
+
+p{
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 85%;
+  color: #610316;
+}
+
+.percy{
+  display: flex;
+  justify-content: center;
+}
+
+.percy > div {
+  width: 45%;
+}
+
+.percy > div > img {
+  transition: 0.3s;
+}
+
+.percy > div > img:hover {
+  transform: rotate(5deg);
+}
+
+h3 {
+  font-family: 'Balsamiq Sans', cursive;
+  letter-spacing: 2px;
+  font-size: 200%;
+  text-align: center;
+  text-decoration: bold;
+  color: #610316;
+  transition: 0.3s;
+}
+
+
+h4 {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    font-size: 130%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 200%;
+    color: #610316;
+}
+
+h6 {
+  font-family: 'Balsamiq Sans', cursive;
+  text-align: center;
+  color: white;
+  font-size: 150%;
+}
+
+h5 {
+  font-family: 'Balsamiq Sans', cursive;
+  text-align: center;
+  color: black;
+  font-size: 150%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.collapsible {
+  background-color: #fff5f7;
+  color: #610316;
+  cursor: pointer;
+  padding: 2%;
+  width: 90%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.3s;
+  margin-left: 5%;
+
+}
+
+.active, .collapsible:hover {
+  background-color: #B06FE1;
+  color: white;
+}
+
+.content {
+  padding: 0 2%;
+  display: none;
+  overflow: hidden;
+  background-color: #f1e6fa;
+  width: 85.95%;
+  margin-left: 5%;
+
+}
