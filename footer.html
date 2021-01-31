@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Tech Team Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./style.css">
+
+
+
+
+
+  </head>
+<body>
+</body>
+
+
+
+
+
+<footer>
+
+<div class="flex-container">
+
+<div class="sectionone">
+<img src="icon1.png"> </img>
+<h5 class="footertext"> - techteamarcadia@gmail.com - </h5>
+<br>
+<img src="icon2.png"> </img>
+<h5 class="footertext"> - @techteamarcadia - </h5>
+</div>
+
+<div class="sectiontwo">
+  <h2 class="content-head">Contact Us!</h2>
+
+
+
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbwHMmqZ4V5pWJXH4s1pibLXfP9n5aCPSMUC7ADdA4t8eH1R8v4/exec">
+    <!-- change the form action to your script url -->
+
+    <div class="form-elements">
+      <fieldset class="pure-group">
+        <label for="name">your name</label>
+        <input id="name" name="name" placeholder="type your name here..." />
+      </fieldset>
+
+      <fieldset class="pure-group">
+        <label for="message">your message</label>
+        <textarea id="message" name="message" rows="10"
+        placeholder="what's your message..."></textarea>
+      </fieldset>
+
+      <fieldset class="pure-group">
+        <label for="email"><em></em> your email address</label>
+        <input id="email" name="email" type="email" value=""
+        required placeholder="your email address..."/>
+        <span class="email-invalid" style="display:none">
+          Must be a valid email address</span>
+      </fieldset>
+
+
+      <button >
+        send</button>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <h2>Thanks for contacting us!
+        We will get back to you soon!
+      Reload the page to submit another form.</h2>
+    </div>
+
+  </form>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="form.js"></script>
+</div>
+</div>
+</footer>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form example">
+    <title>Contact Form Example</title>
+</head>
+
+<body>
+  <div class="sectiontwo">
+    <h2 class="content-head">Contact Us!</h2>
+
+    <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+    action="https://script.google.com/macros/s/AKfycbwHMmqZ4V5pWJXH4s1pibLXfP9n5aCPSMUC7ADdA4t8eH1R8v4/exec">
+      <!-- change the form action to your script url -->
+
+      <div class="form-elements">
+        <fieldset class="pure-group">
+          <label style="text-align: left;" for="name">your name</label>
+          <input id="name" name="name" placeholder="type your name here..." />
+        </fieldset>
+
+        <fieldset class="pure-group">
+          <label style="text-align: left;" for="message">your message</label>
+          <textarea id="message" name="message" rows="10"
+          placeholder="what's your message..."></textarea>
+        </fieldset>
+
+        <fieldset class="pure-group">
+          <label style="text-align: left;" for="email"><em></em> your email address</label>
+          <input id="email" name="email" type="email" value=""
+          required placeholder="your email address..."/>
+          <span class="email-invalid" style="display:none">
+            Must be a valid email address</span>
+        </fieldset>
+
+
+        <button style="float: left;">
+          send</button>
+      </div>
+
+      <!-- Customise the Thankyou Message People See when they submit the form: -->
+      <div class="thankyou_message" style="display:none;">
+        <h2>Thanks for contacting us!
+          We will get back to you soon!
+        Reload the page to submit another form.</h2>
+      </div>
+
+    </form>
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript"
+    src="form.js"></script>
+  </div>
+</body>
+</html>

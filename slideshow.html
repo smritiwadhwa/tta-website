@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./csstt/slides.css">
+
+
+</head>
+
+<body>
+
+<div class="slideshow-container">
+
+
+
+<div class="mySlides fade">
+  <div class="covid">
+  <p> COVID-19 and Tech Team Arcadia<br> <span style="font-size:70%; color: white; margin-left: -13px;">
+   As you all may know, there is an increasing concern of the lack of essential supplies to last this Covid-19 outbreak. Paper towels, toilet paper, hand sanitizer, and disinfectant wipes, to say the least, have been swiped away in panic during the early hours of the day, causing more individuals to have to go “hunting” for these items. The increased travel elevates human contact and defeats the purpose of social distancing. To avoid people from staying out for too long, we have created a supplies <a href="trackertt.html" style="color:red;">tracker</a> for the Arcadia area listing what is available where.</span> </p>
+  </div> </div>
+  <div class="mySlides fade">
+
+    <div class="covid">
+    <p> rcadia area listing what is available where.</span> </p>
+    </div>
+  </div>
+
+<div class="mySlides fade">
+
+  <div class="covid">
+  <p> COVID-19  the Arcadia area listing what is available where.</span> </p>
+  </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var dots = document.getElementsByClassName("dot");
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 4500);
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+</body>
+</html>
